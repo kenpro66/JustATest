@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///opt/homebrew/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Sat Feb  4 23:29:32 2023 as: nmap -sn -oX scan.out 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oX scan.out 192.168.1.0/24" start="1675574972" startstr="Sat Feb  4 23:29:32 2023" version="7.93" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.77" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ATT_4921_55BB69.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="10140" rttvar="10140" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="HPA36CBE.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="5240" rttvar="5240" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.173" addrtype="ipv4"/>
+<hostnames>
+<hostname name="localhost.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="7591" rttvar="7591" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.198" addrtype="ipv4"/>
+<hostnames>
+<hostname name="Rileys-iPhone.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="69816" rttvar="69816" to="349080"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.203" addrtype="ipv4"/>
+<hostnames>
+<hostname name="unknown5c843cec5cca.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="8462" rttvar="8462" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="octopi.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="36573" rttvar="36573" to="182865"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.236" addrtype="ipv4"/>
+<hostnames>
+<hostname name="TSTAT-21D773.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="90869" rttvar="90869" to="454345"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.237" addrtype="ipv4"/>
+<hostnames>
+<hostname name="TSTAT-21D86D.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="89510" rttvar="89510" to="447550"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.238" addrtype="ipv4"/>
+<hostnames>
+<hostname name="OpenWrt.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="7284" rttvar="7284" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.240" addrtype="ipv4"/>
+<hostnames>
+<hostname name="Jewells-iPhone.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="57451" rttvar="57451" to="287255"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.246" addrtype="ipv4"/>
+<hostnames>
+<hostname name="android-fb89484367fdde7.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="9401" rttvar="9401" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.250" addrtype="ipv4"/>
+<hostnames>
+<hostname name="CORP-CWS03X2-AN.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="7090" rttvar="7090" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="dsldevice.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="4464" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1675574986" timestr="Sat Feb  4 23:29:46 2023" summary="Nmap done at Sat Feb  4 23:29:46 2023; 256 IP addresses (13 hosts up) scanned in 13.28 seconds" elapsed="13.28" exit="success"/><hosts up="13" down="243" total="256"/>
+</runstats>
+</nmaprun>

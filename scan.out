@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///opt/homebrew/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Sat Sep  9 00:22:44 2023 as: nmap -sn -oX scan.out 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oX scan.out 192.168.1.0/24" start="1694236964" startstr="Sat Sep  9 00:22:44 2023" version="7.93" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.77" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ATT_4921_55BB69.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="13359" rttvar="12916" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="HPA36CBE.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="15730" rttvar="16009" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="octopi.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="21164" rttvar="16679" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.238" addrtype="ipv4"/>
+<hostnames>
+<hostname name="MeshNode-a415bd.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="5911" rttvar="4514" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="dsldevice.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="4046" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1694237014" timestr="Sat Sep  9 00:23:34 2023" summary="Nmap done at Sat Sep  9 00:23:34 2023; 256 IP addresses (5 hosts up) scanned in 49.15 seconds" elapsed="49.15" exit="success"/><hosts up="5" down="251" total="256"/>
+</runstats>
+</nmaprun>
