@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["-Xfrozen_modules=off", "Debugging"],
+            "args": ["-Xfrozen_modules", "off"],
             "justMyCode": true
         }
     ]

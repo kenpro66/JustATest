@@ -9,7 +9,7 @@ if __name__ == "__main__":
         {
             'role': 'user',
             'content': 'Why is the sky blue?',
-        },
+        }
     ])
     
     print(response['message']['content'])
