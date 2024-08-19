@@ -5,10 +5,10 @@ import ollama
 SERVER_URL = "http://localhost:11434" # Replace with your actual server address
 
 if __name__ == "__main__":
-    response = ollama.chat(model='gemma2', messages=[
+    response = ollama.chat(model='gemma2:2b', messages=[
         {
             'role': 'user',
-            'content': 'Why is the sky blue?',
+            'content': 'Is the earth flat?',
         }
     ])
     
